@@ -1,5 +1,5 @@
 export type NavDestination = string | null;
-export const ROUTES = { home: "https://www.jazzhq.ai/" } as const;
+export const ROUTES = { home: "/buyers-guide/best-prm-software" } as const;
 // These global destinations are not available in the standalone build.
 export const NAV_ITEMS: { label: string; href: NavDestination }[] = [
   { label: "Home", href: null },

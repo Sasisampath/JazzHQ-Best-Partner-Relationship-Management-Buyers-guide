@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
+import { ROUTES } from "@/data/navigation";
 
 export default function Home() {
-  redirect("https://www.jazzhq.ai/");
+  redirect(ROUTES.home);
 }
